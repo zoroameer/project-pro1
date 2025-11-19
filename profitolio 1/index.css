@@ -1,0 +1,197 @@
+ General Fix
+.container img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+}
+
+span {
+  display: block;
+  font-size: 13px;
+  margin-top: 8px;
+  color: #333;
+}
+
+a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #0d6efd;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #073c91;
+}
+
+/* Responsive spacing */
+.col-12 {
+  padding: 10px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  img {
+    max-width: 160px;
+  }
+  span, a {
+    font-size: 12px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  img {
+    max-width: 180px;
+  }
+}
+
+/* frame for shirt */
+.container img {
+  width: 100%;
+  height: 250px;      /* fixed height */
+  object-fit: cover;  /* crops image to perfect size */
+  border-radius: 10px;
+}
+/* footer */
+.alver-footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alver-footer h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alver-footer p {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #999;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-links a {
+    display: inline-block;
+    margin: 8px;
+  }
+}
+/* footer */
+ /* =======================
+   FOOTER (Responsive)
+   ======================= */
+.alver-footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alver-footer h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alver-footer p {
+  font-size: 15px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+/* Footer Links */
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #999;
+}
+
+/* Copyright */
+.copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* =======================
+   RESPONSIVE
+   ======================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .alver-footer h2 {
+    font-size: 24px;
+  }
+  .footer-links a {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .alver-footer {
+    padding: 25px 10px;
+  }
+
+  .alver-footer h2 {
+    font-size: 22px;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .copy {
+    font-size: 13px;
+  }
+}
+
+ 
+
